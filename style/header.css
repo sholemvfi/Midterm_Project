@@ -1,0 +1,111 @@
+    .newClass{
+    color: white;
+}
+    
+body{
+    margin : 0;
+    padding: 0;
+}
+#header{
+    height: 65px;
+    background-color: rgb(15, 15, 15);
+} 
+#header .header-container{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    height: 100%;
+    width: 87%;
+    margin:0 auto;
+}
+
+#header .header-container .img{
+    height: 100%;
+    width: 200px;
+    background-image: url("../images/logo.png");
+    background-size: 100%;
+}
+
+#header .header-container #nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 650px;
+    height: 100%;
+    width: 500px;
+    /* border:1px solid #fff; */
+}
+
+#nav .menu{
+    width: 370px;
+    height: 100%;
+}
+
+#nav .menu ul{
+    margin : 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.menu ul li a{
+    color: #fff;
+}
+
+#nav .menu .menu-ul li{
+    transition: 0.5s;
+    height: 100%;
+    width: 28%;
+    font-family: sans-serif;
+    line-height: 60px;
+}
+.menu-ul li:first-child, #nav .menu ul li:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+}
+
+#nav .menu ul li:hover a{
+    color:black;
+}
+
+#nav .icons{
+    margin : 0;
+    padding: 0;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav .icons .icon{
+   margin: 23px 0 0 15px;
+}
+
+
+/* ------------------- up button --------------------- */
+#up{
+	transition:0.5s;
+	position:fixed;
+	bottom:70px;
+	right:60px;
+	
+	width:50px;
+	height:50px;
+	background:url("../images/up.png") no-repeat 50% 50% #fff;
+	background-size:30px;
+	border:1px solid #ccc;
+	
+	box-shadow:0 0 10px 1px #ddd;
+	border-radius:10%;
+}
+
+#up.hide{
+	visibility:hidden;
+	opacity:0;
+	bottom:-100px;
+}

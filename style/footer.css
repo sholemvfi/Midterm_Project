@@ -1,0 +1,130 @@
+/* -------------footer---------------- */
+#footer .fIcons{
+    width: 450px;
+    height: 60px;
+    margin: 40px auto;
+}
+
+.fIcons ul{
+    margin :0 0 0 30px;
+    padding: 0;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#footer .fIcons .circle {
+  margin-left: 8px;
+  border-radius: 100%;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  background: rgb(51, 49, 49);
+  display: inline-block;
+  line-height: 40px;
+  vertical-align: center;
+  text-align: center;
+}
+
+.fIcons ul li:hover{
+    background-color: rgb(90, 87, 87);
+}
+
+#footer .star{
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#footer .star div{
+    margin: 5px 10px 0 10px;
+    width:50px;
+    height: 1px;
+    border-bottom:1px solid rgb(216, 213, 213);
+}
+
+#footer .sub{
+    margin:20px auto;
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: rgb(105, 105, 105);
+}
+
+#footer .sub2{
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(167, 167, 167);
+}
+
+#footer .emailPart{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 45px;
+    margin: 20px auto;
+}
+
+#footer .emailPart input{
+    border: 2px solid black;
+    width: 300px;
+}
+
+#footer .emailPart div{
+    border: 2px solid black;
+    width: 100px;
+    margin-left: 8px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#footer .emailPart div:hover{
+    background-color: rgb(71, 71, 71);
+}
+
+#footer .fot-ul{
+    margin: 0 auto;
+    width: 300px;
+    height: 20px;
+}
+
+.fot-ul ul{
+    font-family: sans-serif;
+    font-size: 13px;
+    color:gray;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.fot-ul ul li{
+    width: auto;
+    border-right: 2px solid gray;
+    margin-right: 5px;
+    padding:5px;
+}
+
+.fot-ul ul li:last-child{
+    border-right: none;
+}
+
+.fot-ul ul li:hover, #footer .lastP:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+#footer .lastP{
+    text-align: center;
+    margin:20px auto;
+    font-family: sans-serif;
+    font-size: 13px;
+    color:gray;
+}
